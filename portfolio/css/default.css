@@ -1,0 +1,17 @@
+:root {
+    --light-gray: #dfdfdf;
+    --magenta: #da68a4;
+    --dark-gray: #212121;
+}
+
+body {
+    margin: 0;
+    background-color: var(--light-gray);
+    color: #000;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.5em;
+}
+
+a {
+    color: var(--magenta);
+}

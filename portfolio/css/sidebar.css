@@ -1,0 +1,28 @@
+.sidebar {
+    width: 400px;
+    min-height: 100vh;
+    background-color: var(--dark-gray);
+    color: #fff;
+    position: absolute;
+}
+
+.sidebar>ul {
+    list-style: none;
+    line-height: 2em;
+}
+
+.sidebar-top {
+    padding-bottom: 12px;
+    border-bottom: solid 1px var(--light-gray);
+    
+}
+
+.sidebar-mid {}
+
+.sidebar-bottom {
+    position: absolute;
+    padding-top: 12px;
+    border-top: solid 1px var(--light-gray);
+    bottom: 0;
+    width: 100%;
+}
