@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What I Have Been Doing Lately
+title: Summer Plans
 ---
 
 ## Summer Plans
