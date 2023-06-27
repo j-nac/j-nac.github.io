@@ -1,9 +1,14 @@
 .sidebar {
     width: 400px;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: min-content;
     background-color: var(--dark-gray);
     color: #fff;
-    position: absolute;
+    position: fixed;
+    overflow-y: scroll;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar>ul {
@@ -14,15 +19,14 @@
 .sidebar-top {
     padding-bottom: 12px;
     border-bottom: solid 1px var(--light-gray);
-    
 }
 
-.sidebar-mid {}
+.sidebar-mid {
+    flex-grow: 1;
+    margin: 0
+}
 
 .sidebar-bottom {
-    position: absolute;
     padding-top: 12px;
     border-top: solid 1px var(--light-gray);
-    bottom: 0;
-    width: 100%;
 }
