@@ -2,6 +2,7 @@
     --light-gray: #dfdfdf;
     --magenta: #da68a4;
     --dark-gray: #212121;
+    --off-dark-gray: #404040;
 }
 
 body {
@@ -9,9 +10,24 @@ body {
     background-color: var(--light-gray);
     color: #000;
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 a {
     color: var(--magenta);
+}
+
+.content-container {
+    position: fixed;
+    margin-left: 400px;
+    overflow-y: scroll;
+    height: 100vh;
+    min-height: min-content;
+}
+
+.content {
+    display: block;
+    max-width: 800px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
