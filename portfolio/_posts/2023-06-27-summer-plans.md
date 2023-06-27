@@ -1,0 +1,36 @@
+---
+layout: default
+title: What I Have Been Doing Lately
+---
+
+## Summer Plans
+
+{% include mailinfo.html from="Jakob Nacanaynay <jnac8080@gmail.com>" to="You <anyone@out.there>" date="June 27, 2023, 9:44 AM" subject="Summer Plans" %}
+
+Hello,
+
+Yesterday marked the end of my junior year of highschool meaning two things.
+
+1. I'm officially a senior.
+2. I need to occupy myself with things to do for the next two months of summer.
+
+Luckily (or unluckily), I have more than enough things to do to keep me busy.
+
+- Thanks to CyberStart America and the National Cyber Scholarship Foundation I am taking the SANS Foundations course to get GFACT certified. It should take around 60-100 hours. I'm typically bad at pacing myself with work, but I'm good at studying for and taking tests; we'll see how this goes.
+- I'm working with a friend on revamping the Edmonds Comedy Night website. It's hosted on GoDaddy with cPanel. We have a design draft and we're now onto making it. We considered a few options for what languages and technologies to use like Jekyll and React. The highest priority is to make it easy to update for people who don't know any coding so we settled on using Django and create the functionality to update the website from an admin page.
+- This portfolio website.
+- Summer homework:
+    - Reading Great Expectations for my AP Literature class.
+    - A bit of review of organic chemistry for my AP Biology class.
+    - STEM summer homework assignments though my schedule currently doesn't guarantee I even have the STEM 12 class my senior year.
+
+Other items this summer:
+
+- A friend's graduation party.
+- Visiting UW Madison.
+
+That's all for now.
+
+\-\-\-
+
+~ Jakob Nacanaynay
