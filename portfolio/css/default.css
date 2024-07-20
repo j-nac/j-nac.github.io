@@ -1,0 +1,34 @@
+:root {
+    --light-gray: #dfdfdf;
+    --magenta: #da68a4;
+    --dark-gray: #212121;
+    --off-dark-gray: #404040;
+}
+
+body {
+    margin: 0;
+    background-color: var(--light-gray);
+    color: #000;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--magenta);
+}
+
+.mainbar {
+    position: fixed;
+    margin-left: 400px;
+    overflow-y: scroll;
+    height: 100vh;
+    min-height: min-content;
+    width: calc(100vw - 400px);
+}
+
+.content {
+    display: block;
+    max-width: 800px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
