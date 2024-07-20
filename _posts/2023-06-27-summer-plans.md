@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Summer Plans
+title: Summer Plans 2023
 ---
 
 ## Summer Plans
