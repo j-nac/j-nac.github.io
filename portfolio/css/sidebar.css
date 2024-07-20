@@ -5,7 +5,7 @@
     background-color: var(--dark-gray);
     color: #fff;
     position: fixed;
-    overflow-y: scroll;
+    overflow-y: auto;
     
     display: flex;
     flex-direction: column;

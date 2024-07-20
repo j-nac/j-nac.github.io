@@ -1,9 +1,9 @@
 ---
 layout: default
-title: awards | Jakob Nacanaynay
+title: about | Jakob Nacanaynay
 ---
 
-# awards
+# journalism
 
 ---
 
