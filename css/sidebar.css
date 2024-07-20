@@ -2,7 +2,7 @@
     width: 400px;
     height: 100vh;
     min-height: min-content;
-    background-color: var(--dark-gray);
+    background-color: var(--sidebar);
     color: #fff;
     position: fixed;
     overflow-y: auto;
