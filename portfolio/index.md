@@ -20,7 +20,3 @@ Loves: Learning, coding, writing, dogs
 Hates: Learning, coding, writing
 
 That’s about it,
-
-\-\-\-
-
-~ Jakob Nacanaynay

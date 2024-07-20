@@ -30,7 +30,3 @@ Other items this summer:
 - Visiting UW Madison.
 
 That's all for now.
-
-\-\-\-
-
-~ Jakob Nacanaynay
