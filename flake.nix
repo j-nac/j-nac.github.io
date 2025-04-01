@@ -1,5 +1,5 @@
 {
-  description = "Jekyll blog environment";
+  description = "Jekyll blog environment with direct Ruby package management";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -10,20 +10,22 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        rubyEnv = pkgs.bundlerEnv {
-          name = "jekyll-blog-env";
-          ruby = pkgs.ruby;
-          gemdir = ./.;  # Use the current directory's Gemfile/Gemfile.lock
-          groups = [ "default" "jekyll_plugins" ];
+        
+        # Use Ruby packages directly instead of bundlerEnv
+        jekyll = pkgs.bundlerApp {
+          pname = "jekyll";
+          gemdir = ./.;
+          exes = [ "jekyll" ];
         };
       in
       {
         devShells.default = pkgs.mkShell {
           buildInputs = [
-            rubyEnv
-            rubyEnv.wrappedRuby
+            pkgs.ruby_3_2
             pkgs.bundler
-            pkgs.bundix  # To generate gemset.nix
+            # Build dependencies
+            pkgs.gcc
+            pkgs.gnumake
           ];
 
           shellHook = ''
@@ -35,9 +37,16 @@
         packages.default = pkgs.stdenv.mkDerivation {
           name = "jekyll-site";
           src = ./.;
-          buildInputs = [ rubyEnv rubyEnv.wrappedRuby ];
+          buildInputs = [
+            pkgs.ruby_3_2
+            pkgs.bundler
+            # Build dependencies
+            pkgs.gcc
+            pkgs.gnumake
+          ];
           buildPhase = ''
             export HOME=$PWD
+            bundle install
             bundle exec jekyll build
           '';
           installPhase = ''
