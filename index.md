@@ -13,7 +13,7 @@ title: Hello I'm Jakob Nacanaynay
 
 Hello,
 
-I’m an incoming student at Cornell ('28) that does coding stuff and likes writing sometimes. I don’t consider myself a particularly interesting person.
+I am an engineering student at Cornell ('28) that does coding stuff and likes writing sometimes. I don’t consider myself a particularly interesting person.
 
 Loves: Learning, coding, writing, dogs
 

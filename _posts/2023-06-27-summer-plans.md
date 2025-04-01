@@ -20,9 +20,9 @@ Luckily (or unluckily), I have more than enough things to do to keep me busy.
 - I'm working with a friend on revamping the Edmonds Comedy Night website. It's hosted on GoDaddy with cPanel. We have a design draft and we're now onto making it. We considered a few options for what languages and technologies to use like Jekyll and React. The highest priority is to make it easy to update for people who don't know any coding so we settled on using Django and create the functionality to update the website from an admin page.
 - This portfolio website.
 - Summer homework:
-    - Reading Great Expectations for my AP Literature class.
-    - A bit of review of organic chemistry for my AP Biology class.
-    - STEM summer homework assignments though my schedule currently doesn't guarantee I even have the STEM 12 class my senior year.
+  - Reading Great Expectations for my AP Literature class.
+  - A bit of review of organic chemistry for my AP Biology class.
+  - STEM summer homework assignments though my schedule currently doesn't guarantee I even have the STEM 12 class my senior year.
 
 Other items this summer:
 
