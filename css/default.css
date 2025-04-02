@@ -10,7 +10,7 @@ body {
     background-color: var(--light-gray);
     color: #000;
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 a {
@@ -31,4 +31,21 @@ a {
     max-width: 800px;
     margin-left: 80px;
     margin-right: 80px;
+}
+
+@media only screen and (max-width: 1300px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .mainbar {
+        margin-left: 0;
+        padding-top: 30px;
+        width: 100%;
+    }
+    
+    .content {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
 }

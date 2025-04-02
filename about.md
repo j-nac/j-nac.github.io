@@ -13,10 +13,6 @@ title: about | Jakob Nacanaynay
 
 Hello,
 
-I am an engineering student at Cornell ('28) that does coding stuff and likes writing sometimes. I don’t consider myself a particularly interesting person.
-
-Loves: Learning, coding, writing, dogs
-
-Hates: Learning, coding, writing
+I am an engineering student at Cornell ('28) that does stuff and likes writing sometimes. I don’t consider myself a particularly interesting person.
 
 That’s about it,

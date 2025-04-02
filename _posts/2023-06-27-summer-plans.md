@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: post
 title: Summer Plans 2023
+tags: miscellaneous
 ---
-
-## Summer Plans
 
 {% include mailinfo.html from="Jakob Nacanaynay <jnac8080@gmail.com>" to="You <anyone@out.there>" date="June 27, 2023, 9:44 AM" subject="Summer Plans" %}
 
