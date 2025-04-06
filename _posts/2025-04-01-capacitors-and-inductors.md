@@ -8,4 +8,9 @@ tags: ece ece2100
 
 ## Capacitors
 
+| Natural | Step |
+| --- | --- |
+| Initially, a capacitor acts a voltage source. | Initially, a capacitor acts as a short circuit. |
+| Finally, a capacitor acts as an open circuit. | Finally, a capacitor acts as a closed circuit. |
+
 ## Inductors

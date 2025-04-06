@@ -17,6 +17,20 @@ a {
     color: var(--magenta);
 }
 
+table {
+    overflow-x: scroll;
+    max-width: 100%;
+}
+
+th, td {
+    padding: 4px 8px;
+}
+
+table, th, td {
+    border: solid 1px var(--off-dark-gray);
+    border-collapse: collapse;
+}
+
 .mainbar {
     position: fixed;
     margin-left: 400px;
@@ -45,7 +59,7 @@ a {
     }
     
     .content {
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
