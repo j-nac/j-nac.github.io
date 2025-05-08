@@ -30,8 +30,8 @@ Now we consider that current changes with time.
 Kirchhoff's laws remain true when capacitors and inductors are used. However, in the time domain, they are differential equations that can be incredibly difficult to solve. Luckily, with transforms, we can convert our functions to another domain, use the traditional methods of circuit analysis, and convert them back to have the correct solutions.
 
 - [Phasors]({% post_url 2025-04-01-phasors %})
-- [Laplace Transform]
-- [Fourier Transform]
+- [Laplace Transform]({% post_url 2025-05-08-laplace-transform %})
+- [Fourier Transform]({% post_url 2025-05-08-fourier-transform %})
 - [The Transfer Function]({% post_url 2025-05-08-the-transfer-function %})
 - [Convolutions]({% post_url 2025-05-08-convolutions %})
 - [Designing Filters]({% post_url 2025-05-08-designing-filters %})
