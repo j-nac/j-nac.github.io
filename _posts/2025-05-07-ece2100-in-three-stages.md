@@ -33,5 +33,5 @@ Kirchhoff's laws remain true when capacitors and inductors are used. However, in
 - [Laplace Transform]
 - [Fourier Transform]
 - [The Transfer Function]
-- [Convolutions]
+- [Convolutions]({% post_url 2025-05-08-convolutions %})
 - [Designing Filters]({% post_url 2025-05-08-designing-filters %})
