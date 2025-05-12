@@ -3,10 +3,6 @@ layout: default
 title: Hello I'm Jakob Nacanaynay
 ---
 
-# home
-
----
-
 ## Who am I?
 
 {% include mailinfo.html from="Jakob Nacanaynay <jnac8080@gmail.com>" to="You <anyone@out.there>" date="July 20, 2024, 12:19 AM" subject="Who am I?" %}

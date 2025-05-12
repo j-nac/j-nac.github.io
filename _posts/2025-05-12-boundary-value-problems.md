@@ -9,6 +9,8 @@ title: Boundary Value Problems
 
 Most often in boundary value problems, you will be asked to find the eigenvalues and eigenfunctions given a function and boundary conditions.
 
+Here is my method for solving
+
 1. Form the characteristic equation.
 2. Solve in terms of lambda. It will often, but not always, render a square root with lambda inside.
 3. Consider the possible values for $r$ and what values of $\lambda$ would render such values. For example, if the quadratic formula simplified to $1 \pm \sqrt{2-\lambda}$, then two distinct real solutions would occur when $\lambda<2$, repeated roots would occur at $\lambda=0$, and imaginary roots would occur at $\lambda > 2$.

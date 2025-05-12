@@ -31,35 +31,21 @@ table, th, td {
     border-collapse: collapse;
 }
 
-.mainbar {
-    position: fixed;
-    margin-left: 400px;
-    overflow-y: scroll;
-    height: 100vh;
-    min-height: min-content;
-    width: calc(100vw - 400px);
-}
-
 .content {
     display: block;
     max-width: 800px;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: calc(100% - 35px);
+    overflow-y: scroll;
+    margin-left: 400px;
 }
 
 @media only screen and (max-width: 1300px) {
-    body {
-        font-size: 1rem;
-    }
-
-    .mainbar {
-        margin-left: 0;
-        padding-top: 30px;
-        width: 100%;
-    }
-    
     .content {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 35px;
     }
 }
