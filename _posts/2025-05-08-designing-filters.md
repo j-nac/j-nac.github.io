@@ -20,17 +20,25 @@ At high frequencies, impedance will be high in inductors and low for capacitors 
 
 Three basic types of filters are low-pass which allows signals at low frequencies while blocking high frequencies, high-pass which allows high frequencies, and bandpass filters which allow frequencies within a certian band. You can make a bandpass filter by combining a low-pass and high-pass filter together, cascading them (having the output of one be the input to the other).
 
+## Terminology
+
+The cutoff frequency $\omega_c$ is the frequency that divides when a filter will respond with half the maximum average power. This occurs when gain is $\frac{1}{\sqrt{t}}$
+
+Bandwidth is the range of frequency when a filter will respond with above the cutoff frequency.
+
+The quality factor...
+
 ## Passive Filters
 
 Note: generally speaking, inductors are avoided when making filters due to the possibility of interference.
 
 Passive filters use only passive components.
 
-### Passive Low-Pass Filter 
+### Passive Low-Pass Filter
 
 The capacitor acts like a relief valve. At high frequencies, its impedance lowers and the current is redirected through the capacitor rather than to the output.
 
-### Passive High-Pass Filter 
+### Passive High-Pass Filter
 
 ## Active Filters
 
