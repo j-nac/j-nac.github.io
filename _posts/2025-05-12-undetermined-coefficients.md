@@ -32,3 +32,4 @@ $t^3 \Rightarrow At^3 + Bt^2 + Ct + D$
 - If there are multiple summands, address each individually. Ex. $ t^2 + \sin(5t) \Rightarrow At^2+Bt+C + D\sin(5t) + E\cos(5t) $
 - If a term matches with a term in the complementary solution, multiply that term by $t$ until it no longer matches.
 - If two functions multiply, create every combination. Ex. $ t^3\cos(3t) \Rightarrow (At^3 + Bt^2 + Ct + D)(\cos(3t) + \sin(3t)) $
+  - Notice that when you combine a polynomial and trig function, it is best to give the polynomials the coefficients
