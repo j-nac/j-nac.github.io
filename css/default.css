@@ -2,6 +2,7 @@
 
 :root {
     --light-gray: #dfdfdf;
+    --code-gray: #a7b4bd;
     --magenta: #da68a4;
     --sidebar: #412939;
     --off-dark-gray: #404040;
@@ -42,6 +43,15 @@ table, th, td {
     overflow-y: scroll;
     margin-left: 400px;
 }
+
+code {
+    background-color: var(--code-gray);
+}
+
+pre:has(code) {
+    background-color: var(--code-gray);
+}
+
 
 @media only screen and (max-width: 1300px) {
     .content {
