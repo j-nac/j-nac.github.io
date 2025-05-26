@@ -30,5 +30,5 @@ With [pwntools](https://docs.pwntools.com/en/stable/) installed, you can use `ch
 ## Writing the Payload
 
 - Using pwntools, you can easily pack a hex value for the appropriate system.
-- Multiply a binary string to fill buffers as needed. Ex. `b'A'*24`. Add up your strings to get your payload.
-- You can simply pass the payload as packed data from Python into the binary with the command `echo -e <packed-data-string> | ./<binary>`.
+- Multiply a string to fill buffers as needed. Ex. `'A'*24`. Add up your strings to get your payload.
+- You can simply pass the payload as packed data from Python into the binary with the command `echo -ne <packed-data-string> | ./<binary>`. Alternatively, you can use `printf` with no flags. the `-n` flag is crucial for not adding a newline and `-e` will enable interpreting backslashes.
