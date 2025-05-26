@@ -25,7 +25,8 @@ With [pwntools](https://docs.pwntools.com/en/stable/) installed, you can use `ch
 
     Note down the `%rbp` and `%rsp`.
    - A bunch of `mov` instructions often follow to store function parameters and local variables. If register values are moved into the stack it is likely saving parameters. If it is saving zero bytes (`0x0`) or other constants to the stack then it is likely saving local variables.
-   - You will want to find the location of the instruction pointer when input is taken. With GDB, set a breakpoint at the instruction for user input that is vulnerable to a buffer overflow. Run the binary and step till you reach that breakpoint. Read out registers with `info registers` and save the address of `%rip`.
+   - You will want to find the location of the instruction pointer when input is taken. With GDB, set a breakpoint at the instruction for user input that is vulnerable to a buffer overflow. Run the binary and step till you reach that breakpoint. Read out registers with `info registers` and save the address of `%rsi` or `%rdi`. These will likely be the locations of input buffers on the stack, though they may also point to data stored in the heap.
+   - Remember that data will be filled in going up to higher addresses from the input buffer. This means that if you take the distance between the base and start of the input buffer (`%rbp - %rsi`) and add the size of an address to fill up the base pointer itself (eight bytes for 64-bit), you can then overwrite the return address directly above.
 
 ## Writing the Payload
 
