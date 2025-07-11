@@ -44,6 +44,10 @@ table, th, td {
     margin-left: 400px;
 }
 
+.content::-webkit-scrollbar {
+    display: none;
+}
+
 code {
     background-color: var(--code-gray);
 }
