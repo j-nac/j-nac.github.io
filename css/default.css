@@ -61,3 +61,7 @@ pre:has(code) {
         margin-top: 35px;
     }
 }
+
+img {
+    max-width: 800px;
+}
