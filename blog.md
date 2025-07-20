@@ -16,6 +16,16 @@ title: blog | Jakob Nacanaynay
 {% endfor %}
 </ul>
 
+## What I've Been Thinking About
+
+<ul>
+{% for post in site.posts %}
+    {%  if post.tags contains 'thoughts' %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
 ## Everything
 
 <ul>
