@@ -10,7 +10,7 @@ tags: politics thoughts
 
 I've been thinking a lot about how the state we are in now is the result of a chain of effects.
 
-Trumpism was the Republican Party's reaction to Obama-era progressivism. Before, it was a country club of stuffy, old men who sent our country's sons kill and die in foreign countries most citizens couldn't (and still can't) place on a map, the Wall Street one-percenters, and Reagan-era Evangelicals. Today, it's comedians on podcasts and young men in suits debating and "owning" the lib college students. Those were the days Democrats were the cool kids and Republicans were your grump, finger wagging grandparents. I'll get back to this point.
+Trumpism was the Republican Party's reaction to Obama-era progressivism. Before, it was a country club of stuffy, old men who sent our country's sons kill and die in foreign countries most citizens couldn't (and still can't) place on a map, the Wall Street one-percenters, and Reagan-era Evangelicals. Today, it's comedians on podcasts and young men in suits debating and "owning" the lib college students. Those were the days Democrats were the cool kids and Republicans were your grumpy, finger wagging grandparents. I'll get back to this point.
 
 More recently in the news is how Texas redistricting efforts could trigger California to respond and a gerrymander-power-keg to blow as other states pile on. As CGP Grey once said, "shenanigans beget shenanigans"---we end up with districts fucked up enough on both sides to just balance out.
 
