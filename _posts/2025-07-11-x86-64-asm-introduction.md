@@ -1,18 +1,16 @@
 ---
 layout: post
-title: Assembly Lesson 1
+title: x86-64 ASM - Introduction
 tags: assembly
 ---
 
-{% include mailinfo.html from="Jakob Nacanaynay <jnac8080@gmail.com>" to="You <anyone@out.there>" date="July 11, 2025, 10:54 AM" subject="Assembly Lesson 1" %}
+{% include mailinfo.html from="Jakob Nacanaynay <jnac8080@gmail.com>" to="You <anyone@out.there>" date="July 11, 2025, 10:54 AM" subject="x86-64 ASM - Introduction" %}
 
-## Introduction
-
-### Binary and Hexadecimal
+## Binary and Hexadecimal
 
 I trust you know these things.
 
-### Two's Complement Negative Numbers
+## Two's Complement Negative Numbers
 
 1. Given the negative number you want to represent...
 2. Get its absolute value in binary
@@ -28,15 +26,15 @@ Example:
 
 The leading 1 indicates it is negative. You will also find that you can do the same operations in the same order to get 0101 again. Adding as normal also works.
 
-### C Data Types
+## C Data Types
 
 ![C Data Types]({{ site.baseurl }}/images/Refresher_C_Data_Types.png)
 
-### Endianness
+## Endianness
 
 How will we store values in RAM?
 
-#### Little Endian
+### Little Endian
 
 The *least significant byte* (LSB) is stored at the *lowest* address.
 
@@ -46,7 +44,7 @@ Where we might imagine the left value is what we see in the register while the r
 
 Intel is little endian.
 
-#### Big Endian
+### Big Endian
 
 The *most significant byte* (MSB) is stored at the *lowest* address.
 
@@ -54,7 +52,7 @@ The *most significant byte* (MSB) is stored at the *lowest* address.
 
 Network traffic is big endian.
 
-#### Not Getting Confused
+### Not Getting Confused
 
 Remember that endianness applies to BYTES not bits and MEMORY not registers. In a byte, the least significant bit will always be on the right-hand side. The tool you use may also represent things as multiple bytes at a time, flipping to big endian.
 
