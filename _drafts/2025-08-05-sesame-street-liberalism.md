@@ -70,7 +70,7 @@ I am a firm believer, almost to the point of faith, that the root of all change 
 
 Sesame Street Liberalism is not a specific set of policies or goals but rather a message that glues progressive policies and ideals and packages them into something all Americans can understand and get behind. It's a response to despair and dangerous centrist proposals to "end wokeness" which is often a thinly veiled attempt to abandon our core beliefs and the people our party has sworn to protect. Sesame Street Liberalism is plain in that it is rooted in values taught to children, but its necessity in today's politics highlights how we've been poisoned with greed and hatred.
 
-## Empathy
+### Empathy
 
 On Sesame Street, it doesn't matter what you look like or the money in your parent's bank account. We treat everyone equally and with respect. Differences are met with genuine curiosity and an eagerness to learn.
 
@@ -86,13 +86,15 @@ I want to be very clear: **protecting minorities --- particularly in this day, t
 
 On Sesame Street, neighbors help neighbors out of good will. Welfare isn't about having one person take advantage of others, it's about mutual support and that those who are helped will pay their blessings forward. We share because it is the right thing to do.
 
-Welfare *should* be a slam dunk issue for Democrats because it directly supports Americans. We can have plenty of debate about what situations welfare is effective in versus the free market. But having that argument wasn't enough for conservatives. They have perverted the issue into one that somehow redirects the anger of middle class America towards the working and lower classes.
+Welfare *should* be a slam dunk issue for Democrats because it directly supports Americans and appeals to virtue. Welfare also promotes a shared identity --- that we are bound in supporting our fellow Americans.
+
+We can have plenty of debate about what situations welfare is effective in versus the free market. But having that argument wasn't enough for conservatives. They have perverted the issue into one that somehow redirects the anger of middle class America towards the working and lower classes.
 
 Opposition to delivering welfare out of the belief that some are not *deserving* is rooted in corrupt morals.
 
-## Community
+### Community
 
-There is something to be said about how the loneliness and isolation of today contrasts with the community formed on Sesame Street. 
+There is something to be said about how the loneliness and isolation of today contrasts with the community formed on Sesame Street.
 
 Today, it feels like all our systems force people into 
 
