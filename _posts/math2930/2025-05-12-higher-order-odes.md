@@ -18,7 +18,7 @@ Most problems will consist of being given an equation (we will assume it is nonh
    4. From the solutions of $r$, create the general form for the complementary solution.
    5. You will have to wait until after you get the particular solution to find the coefficients.
 2. Find a particular solution.
-   1. Ansatz a form for the particular solution using the [method of undetermined coefficients]({% post_url 2025-05-12-undetermined-coefficients %}). Remember that if you find the same term in the Ansatz as in the complementary solution, you should multiply the term by $t$.
+   1. Ansatz a form for the particular solution using the [method of undetermined coefficients]({% post_url math2930/2025-05-12-undetermined-coefficients %}). Remember that if you find the same term in the Ansatz as in the complementary solution, you should multiply the term by $t$.
    2. Substitute the particular solution into the original equation.
    3. Use the equation to solve for the coefficients. DO NOT use the initial conditions provided to find the particular solution coefficients.
 3. Add the complementary solution and particular solution to get the general solution.
