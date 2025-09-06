@@ -24,11 +24,29 @@ A larger $Q$ indicates a narrow and high spike in amplitude at resonance while a
 
 ## Analysis
 
-- At low driving frequencies $\omega_D << \omega_0$, the response is as if there is no damping or inertia (mass). It will essentially just match the driving oscillation.
+### Low Driving Frequency
 
-- At high driving frequencies $\omega_D >> \omega_0$, the response depends totally on inertia while the damping and spring forces become irrelevant.
+At low driving frequencies $\omega_D << \omega_0$, the response is as if there is no damping or inertia (mass). It will essentially just match the driving oscillation.
 
-- When drive frequency is close to the natural frequency $\omega_D = \omega_0$, the inertial and spring forces cancel leaving the response to be determined by the damping force.
+The driving frequency and frequency of the object will be in phase ($\phi=0$).
+
+$x(t)$ is in phase with $F_D(t)$.
+
+### High Driving Frequency
+
+At high driving frequencies $\omega_D >> \omega_0$, the response depends totally on inertia while the damping and spring forces become irrelevant.
+
+The driving frequency and the frequency of the object will be exactly out of phase *($\phi=-\pi$) with their movements canceling each other out.
+
+$-x(t)$ and $a(t)$ are in phase with $F_D(t)$.
+
+### Equal Driving Frequency
+
+When drive frequency is close to the natural frequency $\omega_D = \omega_0$, the inertial and spring forces cancel leaving the response to be determined by the damping force.
+
+The phase will be about $\phi=-\frac{\pi}{2}$. This will be just perfect for the driving force to push the mass the greater and greater amplitudes achieving resonance.
+
+$v(t)$ is in phase with $F_D(t)$.
 
 ## Energy
 
