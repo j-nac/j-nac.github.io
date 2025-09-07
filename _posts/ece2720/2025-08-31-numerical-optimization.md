@@ -26,8 +26,14 @@ Iterative methods try to improve upon existing inputs. Conceptually, it is very 
 
 For continuous functions, gradient descent can be used to minimize the function. It involves finding the gradient vector and then moving in opposite direction. This is often conceptualized as a ball rolling down a hill.
 
+$$ \bar x_1 = \bar x_0 - \beta \cdot \nabla f(\bar x) $$
+
+Where $\beta$ is some positive.
+
 ## Taylor Series
 
-A Taylor Series is a polynomial approximation of a function.
+A Taylor series is used to approximate functions as the sum of polynomials of increasing order.
 
 $$ f(x+\Delta)=f(x)+\Delta\cdot f'(x) + \frac{\Delta^2}{2!}\cdot f''(x) + \cdots + \frac{\Delta^n}{n!}\cdot f^{(n)}(x) $$
+
+A first order Taylor series is a line and a second order Taylor series is a quadratic.
