@@ -8,7 +8,7 @@ tags: politics
 
 ## We are incapable of properly evaluating leadership
 
-In doing research for my liberal studies class EDUC 2410 "The Art of Teaching", I came across a book about leadership development. 
+In doing research for my liberal studies class EDUC 2410 "The Art of Teaching", I came across a book about leadership development.
 
 The perfect leader, making the perfect decisions with the perfect reasoning every time, could still get screwed.
 
@@ -17,7 +17,7 @@ The perfect leader, making the perfect decisions with the perfect reasoning ever
 
 I find many issues with the presidency of Joe Biden. But what has absolutely infuriated me is the complete misperception of his handling of the economy.
 
-One could say that Biden didn't do enough to alleviate the issues of the common American. That's fair, but I ask you this: what the hell Trump do and why did he seem to get infinite praise?
+One could say that Biden didn't do enough to alleviate the issues of the common American. That's fair, but I ask you this: what the hell did Trump do, and why did he seem to get infinite praise on the economy?
 
 **It was never really about policy; it's about vibes.**
 
