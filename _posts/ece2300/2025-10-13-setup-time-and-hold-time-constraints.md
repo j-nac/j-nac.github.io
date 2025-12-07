@@ -17,7 +17,7 @@ The setup time constraint is where you want the data to be loaded properly befor
 - We want the data to win
 - Stable before the rising edge
 - Propagation delay
-- $T_c \geq t_\text{pd,cq} + t_\text{pd,comb} + t_\text{setup}$
+- $T_c \geq t_\text{pd,cq} + t_\text{pd,comb} + t_\text{setup} - t_\text{skew}$
 
 ## Hold Time Constraint
 
@@ -26,4 +26,4 @@ The hold time constraint is where you want the data to be held in the register r
 - We want the clock to win
 - Stable after the rising edge
 - Contamination delay
-- $t_\text{hold} \leq t_\text{cd,cq} + t_\text{cd,comb} $
+- $t_\text{hold} \leq t_\text{cd,cq} + t_\text{cd,comb} - t_\text{skew}$

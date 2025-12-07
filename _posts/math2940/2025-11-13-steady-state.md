@@ -6,6 +6,14 @@ tags: math math2940
 
 {% include mailinfo.html from="Jakob Nacanaynay <jn567@cornell.edu>" to="You <anyone@out.there>" date="November 13, 2025, 5:13 PM" subject="Steady State" %}
 
+The key to finding the steady state is that we are solving for the vector $\vec q$ for stochastic matrix $P$ where
+
+$$ P_{\vec q} = \vec q $$
+
+Which is the same as
+
+$$ (P-I)\vec q = 0 $$
+
 To find the steady state vector given a stochastic matrix:
 
 1. Set the eigenvalue $\lambda$ to one.
