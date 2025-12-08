@@ -1,18 +1,23 @@
 title: Portfolio - Jakob Nacanaynay
 email: jnac8080@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Hello,
-  I'm a student at Mountlake Terrace High School that does coding stuff and likes writing sometimes. I don't consider myself a particularly interesting person.
-  Loves: Learning, coding, writing, dogs
-  Hates: Learning, coding, writing
-  That’s about it,
+  I am an electrical and computer engineering (ECE) student at Cornell ('28) that does stuff and likes writing sometimes. I don't consider myself a particularly interesting person.
+
+  I found it a bit more motivating to write my notes here than in Obsidian. I might also put some of my thoughts here from time to time.
+
+  That's about it,
   ---
-  ~ Jakob Nacanaynay (he/him/his)
+  ~ Jakob Nacanaynay
+  (nack-uh-nigh-nigh)
+  he/him/his
 
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jakobnacanaynay
 github_username:  j-nac
+
+plugins:
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
