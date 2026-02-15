@@ -18,7 +18,7 @@ The idea is simple: repeat a stage in the read instruction until the data is wri
 
 ## Hardware Bypassing
 
-Often, we will have the data ready in the sense that we've don't the computation, but we haven't yet written it to the regfile which takes time. The idea with bypassing is to sneak the written value around to other stages, so don't need to wait to write to the regfile.
+Often, we will have the data ready in the sense that we have done the computation, but we haven't yet written it to the regfile which takes time. The idea with bypassing is to sneak the written value around to other stages, so don't need to wait to write to the regfile.
 
 What's nice is it allows us to resolve vertical (same cycle) dependencies. A possible issue is that bypass paths often become the critical path and increase time per cycle.
 
