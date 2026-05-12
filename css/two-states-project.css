@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* ── Reset ─────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+}
+
+/* ── Landing screen ────────────────────────── */
+.landing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+    background: #dce8f5;
+    color: #1a2d52;
+    padding: 4rem 6rem;
+    gap: 3rem;
+}
+
+.landing-text {
+    flex: 1;
+}
+
+.landing h1 {
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    margin-top: 1.5rem;
+    color: #3a5a8a;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 36ch;
+}
+
+.landing-flags {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.landing-flags img {
+    width: clamp(180px, 33vw, 900px);
+    height: auto;
+    image-rendering: pixelated;
+}
+
+/* ── Content body ──────────────────────────── */
+main {
+    background: #fff;
+}
+
+.content {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3.5rem 2rem 5rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+/* ── Headings ──────────────────────────────── */
+.content h2 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-top: 3.5rem;
+    margin-bottom: 0.75rem;
+    padding-left: 0.75rem;
+    border-left: 5px solid #4a90d9;
+}
+
+.content h2:nth-of-type(2) { border-left-color: #43a86b; }
+.content h2:nth-of-type(3) { border-left-color: #e09a2a; }
+.content h2:nth-of-type(4) { border-left-color: #c94f3d; }
+.content h2:nth-of-type(5) { border-left-color: #7b5ea7; }
+.content h2:nth-of-type(6) { border-left-color: #666; }
+
+.content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.content h4 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 1.75rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+/* ── Paragraphs and lists ──────────────────── */
+.content p {
+    margin-top: 0;
+    margin-bottom: 1.1rem;
+}
+
+.content ul, .content ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.content li {
+    margin-bottom: 0.35rem;
+}
+
+blockquote, .content > p > em:only-child {
+    border-left: 3px solid #ddd;
+    padding-left: 1rem;
+    color: #444;
+    font-style: italic;
+}
+
+/* ── Links ─────────────────────────────────── */
+.content a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* ── Figures ────────────────────────────────── */
+figure {
+    margin: 2rem 0;
+    display: block;
+}
+
+figure img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+figure embed {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* ── Responsive video iframes ──────────────── */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* ── Tables ─────────────────────────────────── */
+figure.table-figure {
+    overflow-x: auto;
+}
+
+.content table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+.content th, .content td {
+    padding: 8px 14px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.content th {
+    background: #f0f2f4;
+    font-weight: 600;
+}
+
+.content tr:nth-child(even) td {
+    background: #fafafa;
+}
+
+/* ── Sources list ───────────────────────────── */
+.sources-list {
+    font-size: 0.9rem;
+    line-height: 1.9;
+    padding-left: 1.75rem;
+    color: #333;
+}
+
+.sources-list li {
+    margin-bottom: 0.25rem;
+    word-break: break-word;
+}
+
+/* ── Footer ─────────────────────────────────── */
+.site-footer {
+    background: #dce8f5;
+    color: #1a2d52;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    font-size: 0.95rem;
+}
+
+.site-footer a {
+    color: #1a2d52;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+/* ── Mobile ─────────────────────────────────── */
+@media (max-width: 720px) {
+    .landing {
+        flex-direction: column;
+        padding: 3rem 1.5rem 2.5rem;
+        text-align: center;
+        gap: 2.5rem;
+    }
+
+    .subtitle {
+        max-width: 100%;
+    }
+
+    .landing-flags {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .content {
+        padding: 2.5rem 1.2rem 4rem;
+    }
+
+    .content h2 {
+        font-size: 1.4rem;
+    }
+}
