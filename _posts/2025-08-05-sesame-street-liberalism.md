@@ -76,7 +76,7 @@ On Sesame Street, it doesn't matter what you look like or the money in your pare
 
 I have seen a disgusting level of hatred from the right directed towards people on the mere basis of being "different". Transgender people being called pedophiles and receiving threats *not* for any action they took but for the mere fact that they are different. (And it's not really important to the central point I'm making, but the right did elect a sexual abuser to the presidency and a statutory rapist to the House with no repercussions.)
 
-The hatred spread is below childish because children who Sesame Street know that spreading hate for merely being other is ridiculous and disgusting.
+The hatred spread is below childish because children on Sesame Street know that spreading hate for merely being other is ridiculous and disgusting.
 
 I want to be very clear: **protecting minorities --- particularly in this day, transgender people's rights --- is a bare-minimum standard, not a purity test**. The suggestion by establishment Democrats to abandon the issue violates core values of the Democratic party and frankly of America --- that all are created equal and are endowed with the rights of liberty and the pursuit of happiness.
 
