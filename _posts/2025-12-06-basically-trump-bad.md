@@ -19,7 +19,7 @@ When we think about the qualities of a good leader, we might list off the follow
 - Empathy and understanding
 - Processing constructive criticism
 
-Trump exhibits none of these. He has never clearly articulated a problem and proposed a clear solution with any degree of nuance. If you've paid any attention to the tariffs fiasco, it's clear he lacks the ability to stick to a clear plan or think anything through. Trump is the kind of man to pay zero attention to meetings and golf 25 hours a day---he is more concerned with looking awesome than doing the real work.
+Trump exhibits none of these. He has never clearly articulated a problem and proposed a solution with any degree of nuance. If you've paid any attention to the tariffs fiasco, it's obvious he lacks the ability to stick to a plan or think anything through. Trump is the kind of man to pay zero attention to meetings and golf 25 hours a day---he is more concerned with looking awesome than doing the real work.
 
 To go on a bit of a tangent, Trump operates like a sensitive, unstable mob boss. He cannot allow himself to be near the people who will tell him what he needs to hear. If someone disagrees, he forces them out. He surrounds himself with yes men of the snakeish breed. Those who are smart take a note from Dale Carnegie's *How to Win Friends and Influence People*. Play the finesse game and always seem to be on his side while nudging him in your direction; trade your dignity for personal gain by stroking him off while tightening around the neck.
 
@@ -53,7 +53,7 @@ In the wake of the Charlie Kirk shooting, liberal streamer Destiny began making 
 
 > ending every conservative debate callout I do in 2026 with "don't dodge, bro, that's not what Charlie would have wanted"
 
-[Link](https://x.com/TheOmniLiberal/status/1967016152074514902?s=20)
+[Tweet](https://x.com/TheOmniLiberal/status/1967016152074514902?s=20)
 
 As one may expect, many replied to the jokes with shock and disgust. However, Destiny's defense for his behavior, regardless of whether you agree with it or would adopt the strategy yourself, is well reasoned.
 
