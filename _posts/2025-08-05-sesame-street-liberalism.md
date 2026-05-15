@@ -91,15 +91,3 @@ Welfare *should* be a slam dunk issue for Democrats because it directly supports
 We can have plenty of debate about what situations welfare is effective in versus the free market. But having that argument wasn't enough for conservatives. They have perverted the issue into one that somehow redirects the anger of middle class America towards the working and lower classes.
 
 Opposition to delivering welfare out of the belief that some are not *deserving* is rooted in corrupt morals.
-
-### Community
-
-There is something to be said about how the loneliness and isolation of today contrasts with the community formed on Sesame Street.
-
-Today, it feels like all our systems force people into 
-
-### Family
-
-On Sesame Street, Elmo has a loving family that doesn't shield Elmo from reality but supports him through his challenges.
-
-On Sesame Street, Elmo's father is emotional and playful. He serves his duty not out of zeal or hatred but to provide for his family.
