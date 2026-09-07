@@ -82,7 +82,7 @@ I want to be very clear: **protecting minorities --- particularly in this day, t
 
 ### Welfare
 
-*"Why should I spend my hard-earned dollars on social welfare?"*
+"Why should I spend my hard-earned dollars on social welfare?"
 
 On Sesame Street, neighbors help neighbors out of good will. Welfare isn't about having one person take advantage of others, it's about mutual support and that those who are helped will pay their blessings forward. We share because it is the right thing to do.
 
