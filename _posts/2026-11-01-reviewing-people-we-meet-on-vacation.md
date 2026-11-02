@@ -18,7 +18,7 @@ I found more parallels to the situation than I'm comfortable with fully disclosi
 - Flirting with the line between friends and lovers
 - The feelings of longing and inadequacy
 
-The ending was a bit unsatisfactory to me. *Oh, we all talked to therapists and figured shit out...* is a bit of a lazy resolution albeit I guess one of the most realistic ways this could've ended. What sucks is that you can really feel the thoughtfulness Henry put into the characters. You can feel it through their motivations and thoughts, the things the say and where they hold back.
+The ending was a bit unsatisfying to me. *Oh, we all talked to therapists and figured shit out...* is a bit of a lazy resolution albeit I guess one of the most realistic ways this could've ended. What sucks is that you can really feel the thoughtfulness Henry put into the characters. You can feel it through their motivations and thoughts, the things the say and where they hold back.
 
 I'm afraid if I re-read this I'll have to examine more of myself. To be clear, that's high praise. Maybe I should be in therapy. I guess I'll have to give Emily Henry a call...
 
