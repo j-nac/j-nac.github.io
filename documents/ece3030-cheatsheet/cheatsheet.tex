@@ -1,0 +1,328 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb,mathtools}
+\usepackage{multicol}
+\usepackage[margin=0.25in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\setlist{nosep,leftmargin=1em}
+
+% --- Layout ---
+\setlength{\columnsep}{0.18in}
+\setlength{\columnseprule}{0.4pt}
+
+% Compact but readable section headers
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries\color{blue}}{}{0em}{}
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+\titleformat{\subsection}{\normalsize\bfseries\color{blue!50!black}}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{3pt}{1pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.5pt}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+
+\AtBeginDocument{
+  \setlength{\abovedisplayskip}{2pt}
+  \setlength{\belowdisplayskip}{2pt}
+  \setlength{\abovedisplayshortskip}{1pt}
+  \setlength{\belowdisplayshortskip}{1pt}
+}
+
+\newcommand{\warn}[1]{\textcolor{red!70!black}{#1}}
+
+\begin{document}
+\normalsize
+\raggedright
+
+\begin{multicols*}{3}
+
+\section*{Miscellaneous}
+
+Right-hand rule:
+$\hat x \to \hat y \to \hat z$ \hfill $\hat s \to \hat \phi \to \hat z$
+
+Inverse unit vectors (cylindrical):
+
+$\hat x=\cos\phi\,\hat s-\sin\phi\,\hat\phi$ \hfill $\hat y=\sin\phi\,\hat s+\cos\phi\,\hat\phi$
+
+$\hat\phi=\frac{-y\hat x+x\hat y}{s}$
+
+$\displaystyle\int\frac{dx}{(a^2+x^2)^{3/2}}=\frac{x}{a^2\sqrt{a^2+x^2}}$
+
+Constants: $e=1.6\times10^{-19}$ C, $m_e=9.11\times10^{-31}$ kg, $\eta_0\approx377\approx120\pi\ \Omega$
+
+\section*{Magnetostatics}
+
+\subsection*{Forces}
+
+$\vec F=q(\vec E+\vec v\times\vec B)$ \hfill $\vec F=I\int d\vec l\times\vec B$
+
+Parallel wires: $F/l=\frac{\mu_0I_1I_2}{2\pi d}$; same direction $\Rightarrow$ attract
+
+Cyclotron: $R=\frac{mv}{qB}$, \ $f=\frac{qB}{2\pi m}$; \ $\vec B$ does no work
+
+Hall: $V_H=vBt=\frac{IB}{nqw}$ ($t$ = separation of the charged faces), $J=nqv$, $I=\lambda v$; sign of $V_H$ gives carrier sign
+
+\subsection*{Ampere's Law}
+
+$\oint\vec B\cdot d\vec l = \mu_0I_\text{enc}$ \hfill $\oint\vec H\cdot d\vec l = I_\text{f,enc}$
+
+Uniform $J$, radius $a$: $I_\text{enc}=I\frac{s^2}{a^2}$
+
+Shell $a\to a+t$: $I_\text{enc}=I\frac{s^2-a^2}{(a+t)^2-a^2}$
+
+\subsection*{Standard B Fields}
+
+{\small\begin{tabularx}{\linewidth}{|l|X|}
+\hline
+Infinite wire & $\frac{\mu_0I}{2\pi s}\hat\phi$ \\
+Segment$^\dagger$ & $\frac{\mu_0I}{4\pi s}(\sin\theta_2-\sin\theta_1)\hat\phi$ \\
+Loop, on axis & $\frac{\mu_0IR^2}{2(R^2+z^2)^{3/2}}\hat z$ \\
+Square, center & $\frac{2\sqrt2\,\mu_0I}{\pi l}$, side $l$ \\
+Sheet $\vec K$ & $\frac{\mu_0K}{2}$, flips across \\
+Two sheets & $\mu_0K$ between, 0 out \\
+Solenoid & $\mu_0nI$ in, 0 out \\
+Finite sol.$^\ddagger$ & $\frac{\mu_0nI}{2}(\cos\theta_2-\cos\theta_1)$ \\
+Toroid & $\frac{\mu_0NI}{2\pi s}\hat\phi$ inside \\
+\hline
+\end{tabularx}}
+
+{\footnotesize $^\dagger\theta$ measured from the perpendicular foot to each end; signed ($\theta_1<0$ if that end is on the other side). Infinite: $\theta_{1,2}=\mp\frac\pi2$.
+
+$^\ddagger\theta_i$ = angle at $P$ from $+\hat z$ axis to end $i$. Infinite: $\theta_1=\pi$, $\theta_2=0$.}
+
+\subsection*{Vector Potential}
+
+$\nabla^2\vec A=-\mu_0\vec J$ \hfill $\oint\vec A\cdot d\vec l=\Phi$
+
+$\vec A$ is continuous and points along the current.
+
+Wire: $\vec A=-\frac{\mu_0I}{2\pi}\ln(s)\,\hat z+C$ \warn{(not $1/s$!)}
+
+Solenoid: $\vec A=\frac{\mu_0nIs}{2}\hat\phi$ ($s<R$), $\frac{\mu_0nIR^2}{2s}\hat\phi$ ($s>R$); $\vec B=0$ outside but $\vec A\neq0$
+
+For $\vec A=A_z\hat z$: $B_s=\frac1s\frac{\partial A_z}{\partial\phi}$, \ $B_\phi=-\frac{\partial A_z}{\partial s}$
+
+Trial solutions: match the angular dependence of $K$, e.g.\ $s\sin\phi$ inside, $\frac{\sin\phi}{s}$ outside.
+BCs at $s=a$: $A$ continuous ($\Rightarrow B_s$ cont.), $B_\phi^{out}-B_\phi^{in}=\mu_0K_z$
+
+Ex.\ $\vec K=K_0\sin\phi\,\hat z$ on cylinder $a$: $A_z^{in}=\frac{\mu_0K_0}{2}s\sin\phi$, $A_z^{out}=\frac{\mu_0K_0a^2}{2}\frac{\sin\phi}{s}$ $\Rightarrow$ $\vec B_{in}=\frac{\mu_0K_0}{2}\hat x$ (\emph{uniform}), 2D dipole outside. $\sin/\cos$ source $\Rightarrow$ uniform field inside.
+
+\subsection*{Magnetic Dipoles}
+
+$\vec m=I\vec a$ \hfill $\vec A_\text{dip}=\frac{\mu_0}{4\pi}\frac{\vec m\times\hat r}{r^2}$
+
+$\vec\tau=\vec m\times\vec B$ \quad $\vec F=\nabla(\vec m\cdot\vec B)$ \quad $U=-\vec m\cdot\vec B$
+
+Net force is 0 in a uniform field.
+
+Induced moment $\vec m=\alpha\vec B$: $\vec F=\alpha\nabla|B|^2$ (true value is half that). Diamagnetic ($\alpha<0$) $\Rightarrow$ pushed toward \emph{weak} field (levitation).
+
+\subsection*{B, H, and M Fields}
+
+\begin{itemize}
+    \item $\vec H$ from free current \emph{only when symmetry} allows (solenoid, wire, coax). In general $\nabla\cdot\vec H=-\nabla\cdot\vec M$ (bar magnet: $\vec H\neq0$ with no free current).
+    \item $\vec M$ = dipole moment density; $\vec M=0$ in free space.
+    \item Procedure: $\vec H$ from $I_f$ $\Rightarrow$ $\vec B=\mu\vec H$ $\Rightarrow$ $\vec M=\chi_m\vec H$ $\Rightarrow$ $\vec J_b=\nabla\times\vec M$, $\vec K_b=\vec M\times\hat n$
+    \item \warn{$\hat n$ points \emph{out of} the magnetized material.}
+    \item $\mu=\mu_0(1+\chi_m)$
+    \item Uniformly magnetized rod: $\vec B=\mu_0\vec M$ inside
+\end{itemize}
+
+Wire, radius $a$, free $I$, susceptibility $\chi_m$:
+$H=\frac{Is}{2\pi a^2}$ in, $\frac{I}{2\pi s}$ out; $\vec J_b=\chi_m\vec J_f=\frac{\chi_mI}{\pi a^2}\hat z$, $\vec K_b=-\frac{\chi_mI}{2\pi a}\hat z$. Total bound current $=0$.
+
+Solenoid partly filled with rod ($\mu$, radius $a$): $H=nI$ everywhere inside; $B=\mu nI$ in rod, $\mu_0nI$ in air; $\vec K_b=\chi_mnI\,\hat\phi$ on rod surface.
+
+{\small\begin{tabularx}{\linewidth}{|c|X|}
+    \hline
+    Material & Behavior \\
+    \hline
+    Paramagnetic & $\vec M\parallel\vec B$, $\chi_m>0$ \\
+    Diamagnetic & $\vec M$ opposite $\vec B$, $\chi_m<0$ \\
+    Ferromagnetic & Hysteresis: $\vec M$ persists \\
+    \hline
+\end{tabularx}}
+
+\section*{Induction}
+
+Motional: $\mathcal E=vBl=\oint(\vec v\times\vec B)\cdot d\vec l$
+
+Lenz sign: pick current direction, normal by RHR.
+
+\emph{Total} derivative when both $B$ and area change:
+$\mathcal E=-\frac{dB}{dt}A-B\frac{dA}{dt}$ \ (uniform $B$)
+
+Nonuniform $B(y,t)$: integrate $\Phi=\iint B\,dA$ first, then differentiate.
+
+$i=\mathcal E/R_\text{tot}$; resistive bar adds $R_\text{bar}=\frac{\ell}{\sigma A}$ in series
+
+Rotating loop: $\mathcal E=NBA\omega\sin\omega t$
+
+\subsection*{Inductance}
+
+$L=\frac{N\Phi}{I}$ \quad or \quad $L=\frac{2W}{I^2}$, \ $W=\frac{1}{2\mu_0}\int B^2\,d\tau$
+
+(energy method is easiest for internal inductance)
+
+{\small\begin{tabularx}{\linewidth}{|l|X|}
+\hline
+Solenoid & $L=\mu_0N^2A/\ell$ \\
+Coax & $L/\ell=\frac{\mu_0}{2\pi}\ln\frac ba$ \\
+Parallel plates & $L/\ell=\mu_0d/w$ \\
+\hline
+\end{tabularx}}
+
+$W=\frac12LI^2$ \quad $u_B=\frac{B^2}{2\mu_0}$ \quad $R=\frac{\ell}{\sigma A}$ \quad $P=I^2R$
+
+Mutual: $M_{12}=M_{21}$; $\Lambda_1=L_1I_1+MI_2$; perfect coupling $M^2=L_1L_2$
+
+\subsection*{Ideal Transformer}
+
+$\frac{\mathcal E_2}{\mathcal E_1}=\frac{N_2}{N_1}$ \quad $\frac{I_2}{I_1}=\frac{N_1}{N_2}$ \quad $V_1I_1=V_2I_2$
+
+Load $R$ on secondary appears as $R\left(\frac{N_1}{N_2}\right)^2$ from primary
+
+
+\columnbreak
+\section*{Normal Incidence}
+
+Medium 1 ($z<0$): $\tilde E=\hat xE_i\left(e^{-jk_1z}+\Gamma e^{jk_1z}\right)$
+
+$\tilde H=\hat y\frac{E_i}{\eta_1}\left(e^{-jk_1z}\warn{-}\Gamma e^{jk_1z}\right)$ (reflected $H$ flips sign)
+
+Origin of $\Gamma$, $T$: $E_\text{tan}$ and $H_\text{tan}$ both continuous (no $K$ unless PEC)
+
+Reflected power fraction $|\Gamma|^2$. Transmitted:
+
+$\langle S_t\rangle=\frac12|TE_i|^2\,\Re\{1/\eta_t\}$; real $\eta$: $1-|\Gamma|^2=\frac{\eta_i}{\eta_t}|T|^2$
+
+$n_t>n_i\Rightarrow\Gamma<0\Rightarrow$ $|E|$ minimum at interface
+
+Free space $\to$ non-magnetic medium only:
+
+$\tilde \Gamma=\frac{1-\sqrt{\tilde\epsilon_r}}{1+\sqrt{\tilde\epsilon_r}}$ \hfill $\tilde\epsilon_r=\left(\frac{1-\Gamma}{1+\Gamma}\right)^2$
+
+\subsection*{Reading a Standing-Wave Plot}
+
+\begin{enumerate}[leftmargin=1.3em]
+  \item \warn{Plot shows $|E|$}: adjacent maxima are $\lambda/2$ apart; min is $\lambda/4$ from max. $\lambda\Rightarrow f=c/\lambda$ (in free space)
+  \item $|\Gamma|=\frac{\text{SWR}-1}{\text{SWR}+1}$, \ SWR $=\frac{E_\text{max}}{E_\text{min}}$
+  \item $\varphi=\angle\Gamma=-2k_1z_\text{max}$ (nearest max, $z_\text{max}<0$)
+  \item $|E_i|=\frac{E_\text{max}}{1+|\Gamma|}=\frac{E_\text{min}}{1-|\Gamma|}$
+  \item $\Gamma=|\Gamma|e^{j\varphi}\Rightarrow\tilde\epsilon_r$ (formula above)
+\end{enumerate}
+
+\subsection*{Special Cases}
+
+PEC ($\Gamma=-1$): $\tilde E=-2jE_i\sin(kz)\hat x$, $\tilde H=\frac{2E_i}{\eta_0}\cos(kz)\hat y$, $|K|=\frac{2|E_i|}{\eta_0}$; $E$, $H$ $90^\circ$ out of phase in time and space
+
+Counter-propagating pair: $\tilde E=2E_0\cos(kz)$, $\tilde H=-\frac{2jE_0}{\eta}\sin(kz)$, $\langle S\rangle=0$
+
+Plasma, $\omega<\omega_p$: $\eta$ imaginary $\Rightarrow|\Gamma|=1$, total reflection
+
+\section*{Waves}
+
+\subsection*{Relations}
+
+$k = \frac{2\pi}{\lambda}$ \hfill $\omega=2\pi f$ \hfill $v=\lambda f$
+
+$\epsilon_r = \frac{\epsilon}{\epsilon_0}=1+\chi_e$ \hfill $\eta = \sqrt{\frac{\mu_0}{\epsilon}} = \frac{\eta_0}{\sqrt{\epsilon_r}}$
+
+Reading $\epsilon_r$ from a wave: $\epsilon_r=(c/v_p)^2=(k/k_0)^2$
+
+\subsection*{Phasor Math}
+
+$\frac{\partial}{\partial t}\to j\omega$ \quad $\nabla\to-j\vec k$ \quad Griffiths: $j\to-i$
+
+$j = e^{j\pi/2}\Rightarrow\delta=+\pi/2$ \hfill $\Re\{je^{j\omega t}\}=-\sin\omega t$
+
+$\langle\vec a\times\vec b\rangle=\frac12\Re(\vec A\times\vec B^*)$ \hfill $\langle\cos^2\rangle=\frac12$ \hfill $\langle\sin\cos\rangle=0$
+
+Read $\vec k$ from the phase: $e^{+jkx}$ travels along \warn{$-\hat x$}. Transverse check: $\vec k\cdot\vec E=0$
+
+Charge relaxation: $\tau_d=\epsilon/\sigma$
+
+\subsection*{Polarization}
+{\small\begin{tabularx}{\linewidth}{|c|X|}
+    \hline
+    Condition & Polarization \\
+    \hline
+    $\delta=0$ or $\pi$ & Linear \\
+    $\delta=\pm\frac{\pi}{2}$, $|E_{0x}|=|E_{0y}|$ & Circular \\
+    Anything else & Elliptical \\
+    \hline
+\end{tabularx}}
+
+General test: take the real field at $\vec r=0$; \\
+$\vec E(0)\times\frac{d\vec E}{dt}\big|_0\parallel+\hat k$ $\Rightarrow$ RH; antiparallel $\Rightarrow$ LH
+
+Ex.\ $\hat k = +\hat z$, $\hat n = \hat x + j\hat y$: $\hat y$ leads $\hat x$ by $90^\circ\Rightarrow$ LH. \textbf{Reversing $\hat k$ flips handedness.}
+
+\subsection*{Phasor Shortcuts}
+
+$\tilde{E} = \hat nE_0e^{-j\vec k\cdot \vec r} \Rightarrow \tilde{H} = (\hat k\times\hat n)\frac{E_0}{\eta}e^{-j\vec k\cdot \vec r}$
+
+$\tilde H=\frac1\eta\hat k\times\tilde E$ \quad $\tilde E=-\eta\,\hat k\times\tilde H$ (given $H$)
+
+Along $\hat z$, $\vec E\parallel\hat x$: $\tilde{E} = \hat xE_0e^{-jkz} \Rightarrow \tilde{H} = \hat y\frac{E_0}{\eta}e^{-jkz}$
+
+Full complex field (not a phasor): $\hat nE_0e^{j(\omega t-kz)}$
+
+\subsection*{Poynting Vector and Energy}
+
+$\tilde S=\frac{1}{2}\tilde E\times\tilde H^*$ \hfill $\langle\vec S\rangle = \Re\{\tilde S\}$
+
+Plane wave: $\langle\vec S\rangle=\frac{\tilde E\cdot\tilde E^*}{2\eta}\hat k$
+
+Lossy: $\langle\vec S\rangle=\frac{k'}{2\omega\mu_0}|E_0|^2e^{-2k''z}\hat z$
+
+Depth where power falls to fraction $X$: $z=\frac{\ln(1/X)}{2k''}$ (round trip doubles path)
+
+Lossless: $u_e=u_m$, $|S|=u\,v$. \ Lossy: $\frac{\langle u_m\rangle}{\langle u_e\rangle}=\sqrt{1+x^2}$
+
+Fields add, powers don't: superposition has interference cross terms.
+
+\subsection*{Waves in Various Media}
+
+Let $x=\frac{\sigma}{\omega\epsilon}$; crossover $f_c=\frac{\sigma}{2\pi\epsilon}$.
+
+\textbf{Any medium} (use for intermediate $x$):
+$k=\omega\sqrt{\mu_0\epsilon_\text{eff}}$, \ $\eta=\sqrt{\mu_0/\epsilon_\text{eff}}$, \ $\epsilon_\text{eff}=\epsilon\left(1-jx\right)$
+
+$k=k'-jk''$: \ $k'' = \omega\sqrt{\tfrac{\mu\epsilon}{2}}\sqrt{\sqrt{1+x^2}-1}$ \ ($k'$: use $+1$)
+
+\textbf{Dielectric}: $k=\frac{n\omega}{c}$, $n=\sqrt{\epsilon_r}$, $\eta=\frac{\eta_0}{n}$, $\lambda=\frac{\lambda_0}{n}$, $v=\frac cn$
+
+\textbf{Lossy dielectric} ($x\ll1$): $k'\approx\omega\sqrt{\mu_0\epsilon}$, $k''\approx\frac\sigma2\sqrt{\frac{\mu_0}{\epsilon}}$ (indep.\ of $f$), $\eta\approx$ real
+
+\textbf{Good conductor} ($x\gg1$): $k=\frac{1-j}{d}$, $\eta=\frac{1+j}{\sigma d}$ ($H$ lags $E$ by $45^\circ$), $\lambda=2\pi d$, $v_p=\omega d$.
+Amplitude $\downarrow 1/e$ at depth $d$; power $\downarrow 1/e$ at $d/2$.
+
+\textbf{Plasma}:
+\begin{itemize}
+    \item $\omega > \omega_p$: propagates; $k=\frac1c\sqrt{\omega^2-\omega_p^2}$
+    \item $v_g=c\sqrt{1-\omega_p^2/\omega^2}<c<v_p$, \ $v_pv_g=c^2$
+    \item $\omega < \omega_p$: reflects; $k$, $\eta$ imaginary, evanescent, $\langle S\rangle=0$
+    \item $f_p\approx8.98\sqrt N$ Hz, \ $N=m\epsilon_0\omega_p^2/e^2$
+\end{itemize}
+
+\textbf{Drude}: $\sigma=\frac{Ne^2\tau}{m}$, $\epsilon=\epsilon_0\left[1-\frac{j\sigma}{\omega\epsilon_0(1+j\omega\tau)}\right]$; \\
+$\omega\tau\ll1$: conductor; \ $\omega\tau\gg1$: plasma
+
+{\small\begin{tabularx}{\linewidth}{|c|X|}
+    \hline
+    Material & Properties \\
+    \hline
+    Free space & $\epsilon=\epsilon_0$ \\
+    Dielectric & $\epsilon$, $\eta$ real \\
+    Lossy / conductor & $\epsilon$, $k$, $\eta$ complex \\
+    Plasma $\omega<\omega_p$ & $\epsilon_r<0$; $k$, $\eta$ imag. \\
+    \hline
+\end{tabularx}}
+
+\end{multicols*}
+\end{document}
